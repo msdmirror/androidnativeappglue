@@ -21,7 +21,7 @@ set(API
 source_group(API FILES ${API})
 
 set(SOURCES
-	${NATIVE_APP_GLUE_SOURCE_DIR}/src/android_native_app_glue.cpp)
+	${NATIVE_APP_GLUE_SOURCE_DIR}/src/android_native_app_glue.c)
 
 add_library(android_native_app_glue ${NATIVE_APP_GLUE_LIBTYPE} ${SOURCES} ${API})
 
